@@ -596,3 +596,137 @@
 2019-03-10 17:49:36,039 INFO werkzeug 127.0.0.1 - - [10/Mar/2019 17:49:36] "GET /most_common/twenty_minutes HTTP/1.1" 200 -
 2019-03-10 17:50:01,968 INFO werkzeug 127.0.0.1 - - [10/Mar/2019 17:50:01] "GET /most_common_by_month/twenty_minutes HTTP/1.1" 200 -
 2019-03-10 17:51:31,554 INFO werkzeug 127.0.0.1 - - [10/Mar/2019 17:51:31] "GET / HTTP/1.1" 200 -
+2019-03-10 22:18:38,439 INFO __main__ Successfully configured logger
+2019-03-10 22:18:38,447 INFO werkzeug  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-03-10 22:19:13,641 INFO werkzeug 127.0.0.1 - - [10/Mar/2019 22:19:13] "GET / HTTP/1.1" 200 -
+2019-03-10 22:19:22,521 ERROR flask.app Exception on /term_analysis/ [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/roman/PycharmProjects/NewsCrawler/controller.py", line 140, in term_analysis
+    idf_month_chart = chart_data.idf_per_month(term, coll_name)
+  File "/Users/roman/PycharmProjects/NewsCrawler/analysis/chart_data.py", line 84, in idf_per_month
+    return bar_chart_grouped_by_month(coll_name, percentage_documents_containing(term))
+  File "/Users/roman/PycharmProjects/NewsCrawler/analysis/chart_data.py", line 60, in bar_chart_grouped_by_month
+    labels = [f"{month_name[month]} {year}" for year, month, _ in db.group_by_month(coll_name)]
+  File "/Users/roman/PycharmProjects/NewsCrawler/db/mongo_db.py", line 56, in group_by_month
+    oldest = coll.find_one(projection={"_id": 0, "published": 1}, sort=("published", 1))["published"]
+TypeError: 'NoneType' object is not subscriptable
+2019-03-10 22:19:22,528 INFO werkzeug 127.0.0.1 - - [10/Mar/2019 22:19:22] "GET /term_analysis/?term=Trump HTTP/1.1" 500 -
+2019-03-10 22:21:01,613 INFO __main__ Successfully configured logger
+2019-03-10 22:21:01,639 INFO werkzeug  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-03-10 22:21:31,518 INFO werkzeug 127.0.0.1 - - [10/Mar/2019 22:21:31] "GET / HTTP/1.1" 200 -
+2019-03-10 22:21:32,563 ERROR flask.app Exception on /term_analysis/ [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/roman/PycharmProjects/NewsCrawler/controller.py", line 140, in term_analysis
+    idf_month_chart = chart_data.idf_per_month(term, coll_name)
+  File "/Users/roman/PycharmProjects/NewsCrawler/analysis/chart_data.py", line 84, in idf_per_month
+    return bar_chart_grouped_by_month(coll_name, percentage_documents_containing(term))
+  File "/Users/roman/PycharmProjects/NewsCrawler/analysis/chart_data.py", line 60, in bar_chart_grouped_by_month
+    labels = [f"{month_name[month]} {year}" for year, month, _ in db.group_by_month(coll_name)]
+  File "/Users/roman/PycharmProjects/NewsCrawler/db/mongo_db.py", line 56, in group_by_month
+    oldest = coll.find_one(projection={"_id": 0, "published": 1}, sort=("published", 1))["published"]
+TypeError: 'NoneType' object is not subscriptable
+2019-03-10 22:21:32,570 INFO werkzeug 127.0.0.1 - - [10/Mar/2019 22:21:32] "GET /term_analysis/?term=Trump HTTP/1.1" 500 -
+2019-03-10 22:21:35,089 ERROR flask.app Exception on /term_analysis/ [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/roman/PycharmProjects/NewsCrawler/controller.py", line 140, in term_analysis
+    idf_month_chart = chart_data.idf_per_month(term, coll_name)
+  File "/Users/roman/PycharmProjects/NewsCrawler/analysis/chart_data.py", line 84, in idf_per_month
+    return bar_chart_grouped_by_month(coll_name, percentage_documents_containing(term))
+  File "/Users/roman/PycharmProjects/NewsCrawler/analysis/chart_data.py", line 60, in bar_chart_grouped_by_month
+    labels = [f"{month_name[month]} {year}" for year, month, _ in db.group_by_month(coll_name)]
+  File "/Users/roman/PycharmProjects/NewsCrawler/db/mongo_db.py", line 56, in group_by_month
+    oldest = coll.find_one(projection={"_id": 0, "published": 1}, sort=("published", 1))["published"]
+TypeError: 'NoneType' object is not subscriptable
+2019-03-10 22:21:35,091 INFO werkzeug 127.0.0.1 - - [10/Mar/2019 22:21:35] "GET /term_analysis/?term=Trump HTTP/1.1" 500 -
+2019-03-10 22:21:45,654 ERROR flask.app Exception on /term_analysis/ [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/roman/PycharmProjects/NewsCrawler/controller.py", line 140, in term_analysis
+    idf_month_chart = chart_data.idf_per_month(term, coll_name)
+  File "/Users/roman/PycharmProjects/NewsCrawler/analysis/chart_data.py", line 84, in idf_per_month
+    return bar_chart_grouped_by_month(coll_name, percentage_documents_containing(term))
+  File "/Users/roman/PycharmProjects/NewsCrawler/analysis/chart_data.py", line 60, in bar_chart_grouped_by_month
+    labels = [f"{month_name[month]} {year}" for year, month, _ in db.group_by_month(coll_name)]
+  File "/Users/roman/PycharmProjects/NewsCrawler/db/mongo_db.py", line 56, in group_by_month
+    oldest = coll.find_one(projection={"_id": 0, "published": 1}, sort=("published", 1))["published"]
+TypeError: 'NoneType' object is not subscriptable
+2019-03-10 22:21:45,655 INFO werkzeug 127.0.0.1 - - [10/Mar/2019 22:21:45] "GET /term_analysis/?term=Trump HTTP/1.1" 500 -
+2019-03-10 22:23:06,159 INFO werkzeug 127.0.0.1 - - [10/Mar/2019 22:23:06] "GET / HTTP/1.1" 200 -
+2019-03-10 22:25:01,774 ERROR flask.app Exception on /term_analysis/ [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/roman/PycharmProjects/NewsCrawler/controller.py", line 140, in term_analysis
+    idf_month_chart = chart_data.idf_per_month(term, coll_name)
+  File "/Users/roman/PycharmProjects/NewsCrawler/analysis/chart_data.py", line 84, in idf_per_month
+    return bar_chart_grouped_by_month(coll_name, percentage_documents_containing(term))
+  File "/Users/roman/PycharmProjects/NewsCrawler/analysis/chart_data.py", line 60, in bar_chart_grouped_by_month
+    labels = [f"{month_name[month]} {year}" for year, month, _ in db.group_by_month(coll_name)]
+  File "/Users/roman/PycharmProjects/NewsCrawler/db/mongo_db.py", line 56, in group_by_month
+    oldest = coll.find_one(projection={"_id": 0, "published": 1}, sort=("published", 1))["published"]
+TypeError: 'NoneType' object is not subscriptable
+2019-03-10 22:25:06,899 INFO werkzeug 127.0.0.1 - - [10/Mar/2019 22:25:06] "GET /term_analysis/?term=Trump HTTP/1.1" 500 -
+2019-03-10 22:54:54,299 INFO __main__ Successfully configured logger
+2019-03-10 22:54:54,308 INFO werkzeug  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-03-10 23:00:32,810 INFO werkzeug 127.0.0.1 - - [10/Mar/2019 23:00:32] "GET / HTTP/1.1" 200 -
+2019-03-10 23:00:32,863 INFO werkzeug 127.0.0.1 - - [10/Mar/2019 23:00:32] "GET /static/w3.css HTTP/1.1" 200 -
+2019-03-10 23:00:32,864 INFO werkzeug 127.0.0.1 - - [10/Mar/2019 23:00:32] "GET /static/style.css HTTP/1.1" 200 -
+2019-03-10 23:00:32,864 INFO werkzeug 127.0.0.1 - - [10/Mar/2019 23:00:32] "GET /static/jquery.js HTTP/1.1" 200 -
+2019-03-10 23:00:43,502 INFO werkzeug 127.0.0.1 - - [10/Mar/2019 23:00:43] "GET /term_analysis/?term=Trump HTTP/1.1" 200 -

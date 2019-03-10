@@ -18,7 +18,7 @@ def avg_text_sent(docs, term=None):
 
 
 STOPWORDS = None
-with open(path.join(APP_STATIC, "stopwords_german.txt")) as stopword_file:
+with open(path.join(APP_STATIC, "stopwords_german.txt"), encoding="utf-8") as stopword_file:
     STOPWORDS = {word for word in stopword_file.read().splitlines()}
 
 

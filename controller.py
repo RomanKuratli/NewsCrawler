@@ -137,16 +137,17 @@ def term_analysis():
     term = request.args.get("term")
     charts = []
     for coll_name, journal in JOURNALS.items():
-        idf_month_chart = chart_data.idf_per_month(term, coll_name)
-        idf_section_chart = chart_data.idf_per_section(term, coll_name)
-        sent_chart = chart_data.avg_sent_per_month(coll_name, term)
-        charts.append({
-            "journal_name": journal["Display"],
-            "idf_month_chart": idf_month_chart,
-            "idf_section_chart": idf_section_chart,
-            "sent_chart": sent_chart
-        })
-    return render_template("templatesterm_analysis.html", term=term, charts=charts)
+        if not db.is_empty(coll_name):
+            idf_month_chart = chart_data.idf_per_month(term, coll_name)
+            idf_section_chart = chart_data.idf_per_section(term, coll_name)
+            sent_chart = chart_data.avg_sent_per_month(coll_name, term)
+            charts.append({
+                "journal_name": journal["Display"],
+                "idf_month_chart": idf_month_chart,
+                "idf_section_chart": idf_section_chart,
+                "sent_chart": sent_chart
+            })
+    return render_template("term_analysis.html", term=term, charts=charts)
 
 
 @app.route("/json_backup/<coll_name>")

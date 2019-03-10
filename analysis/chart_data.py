@@ -40,13 +40,16 @@ def get_line_chart_markup(labels, values) -> Markup:
     line = Line(data, values="values", label=CatAttr(columns=["labels"], sort=False))
     return get_chart_markup(line)
 
+
 # ============= aggregators ======================
 def count_docs(docs): return len(docs)
+
 
 def avg_text_sent(term=None):
     def avg_text_sent2(docs):
         return stat.avg_text_sent(docs, term)
     return avg_text_sent2
+
 
 def percentage_documents_containing(term):
     def idf_per_term(docs):
