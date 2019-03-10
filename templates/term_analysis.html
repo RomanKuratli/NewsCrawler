@@ -1,0 +1,40 @@
+{% extends "base_charts.html" %}
+{% block content %}
+    <div class="w3-card-4 w3-card-bg w3-padding w3-margin-top w3-margin-bottom">
+        <h2>term analysis: {{ term }}</h2>
+    </div>
+    <div class="w3-card-4 w3-card-bg w3-padding w3-margin-top w3-margin-bottom">
+        <div id="title_row" class="w3-row">
+            {% for chart in charts %}
+            <!-- TODO i know, w3-half would be a problem if we ever have more than two journals -->
+            <div class="w3-padding w3-margin-top w3-margin-bottom w3-half">
+                <h2>{{ term }} in {{ chart["journal_name"] }}</h2>
+            </div>
+            {% endfor %}
+        </div>
+        <div id="month_chart_row" class="w3-row">
+            {% for chart in charts %}
+            <div class="w3-padding w3-margin-top w3-margin-bottom w3-half">
+                <h3>occurences of {{ term }} per Month</h3>
+                <div class="w3-card-2 w3-card-bg2">{{ chart["idf_month_chart"] }}</div>
+            </div>
+            {% endfor %}
+        </div>
+        <div id="section_chart_row" class="w3-row">
+            {% for chart in charts %}
+            <div class="w3-padding w3-margin-top w3-margin-bottom w3-half">
+                <h3>occurences of {{ term }} per section</h3>
+                <div class="w3-card-2 w3-card-bg2">{{ chart["idf_section_chart"] }}</div>
+            </div>
+            {% endfor %}
+        </div>
+        <div id="sent_chart_row" class="w3-row">
+            {% for chart in charts %}
+            <div class="w3-padding w3-margin-top w3-margin-bottom w3-half">
+                <h3>sentiment development</h3>
+                <div class="w3-card-2 w3-card-bg2">{{ chart["sent_chart"] }}</div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="w3-card-4 w3-card-bg w3-padding w3-margin-top w3-margin-bottom">
+    <h2>Load articles from JSON-file into collection {{ coll_name }}</h2>
+    <form action="{{ url_for("load_from_json")}}" enctype="multipart/form-data" method="post">
+        <p>
+            JSON-File: <br/>
+            <input type="file" name="json_file_{{ coll_name }}"/>
+        </p>
+        <input type="submit" value="load into collection"/>
+    </form>
+</div>
+{% endblock %}

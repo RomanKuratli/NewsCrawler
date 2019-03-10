@@ -1,0 +1,598 @@
+2018-01-01 12:37:42,543 INFO __main__ Successfully configured logger
+2018-01-01 12:37:42,550 INFO werkzeug  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-01-01 12:45:23,047 INFO werkzeug 127.0.0.1 - - [01/Jan/2018 12:45:23] "GET / HTTP/1.1" 200 -
+2018-01-01 12:45:23,109 INFO werkzeug 127.0.0.1 - - [01/Jan/2018 12:45:23] "GET /static/w3.css HTTP/1.1" 200 -
+2018-01-01 12:45:23,112 INFO werkzeug 127.0.0.1 - - [01/Jan/2018 12:45:23] "GET /static/style.css HTTP/1.1" 200 -
+2018-01-01 12:45:23,455 INFO werkzeug 127.0.0.1 - - [01/Jan/2018 12:45:23] "GET /favicon.ico HTTP/1.1" 404 -
+2018-01-01 12:46:11,210 INFO werkzeug 127.0.0.1 - - [01/Jan/2018 12:46:11] "GET / HTTP/1.1" 200 -
+2018-01-01 12:46:11,303 INFO werkzeug 127.0.0.1 - - [01/Jan/2018 12:46:11] "GET /static/w3.css HTTP/1.1" 304 -
+2018-01-01 12:46:11,305 INFO werkzeug 127.0.0.1 - - [01/Jan/2018 12:46:11] "GET /static/style.css HTTP/1.1" 304 -
+2018-01-01 12:46:20,052 INFO werkzeug 127.0.0.1 - - [01/Jan/2018 12:46:20] "GET / HTTP/1.1" 200 -
+2018-01-01 12:46:42,957 INFO werkzeug 127.0.0.1 - - [01/Jan/2018 12:46:42] "GET / HTTP/1.1" 200 -
+2018-01-01 12:46:43,037 INFO werkzeug 127.0.0.1 - - [01/Jan/2018 12:46:43] "GET /static/w3.css HTTP/1.1" 304 -
+2018-01-01 12:46:43,039 INFO werkzeug 127.0.0.1 - - [01/Jan/2018 12:46:43] "GET /static/style.css HTTP/1.1" 304 -
+2018-01-01 13:08:56,673 INFO __main__ Successfully configured logger
+2018-01-01 13:08:56,682 INFO werkzeug  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-01-01 13:09:02,748 INFO werkzeug 127.0.0.1 - - [01/Jan/2018 13:09:02] "GET / HTTP/1.1" 200 -
+2018-01-01 13:09:02,897 INFO werkzeug 127.0.0.1 - - [01/Jan/2018 13:09:02] "GET /static/w3.css HTTP/1.1" 304 -
+2018-01-01 13:09:02,899 INFO werkzeug 127.0.0.1 - - [01/Jan/2018 13:09:02] "GET /static/style.css HTTP/1.1" 304 -
+2018-01-01 13:09:02,901 INFO werkzeug 127.0.0.1 - - [01/Jan/2018 13:09:02] "GET /static/jquery.js HTTP/1.1" 200 -
+2018-01-01 13:10:04,033 INFO fetcher Set up fetcher for collection watson
+2018-01-01 13:10:04,033 INFO fetcher fetching stories of journal watson in thread Thread-1
+2018-01-01 13:10:04,039 INFO werkzeug 127.0.0.1 - - [01/Jan/2018 13:10:04] "GET /fetch/watson HTTP/1.1" 200 -
+2018-01-01 13:10:10,946 ERROR utils.utils Could not make soup: HTTP Error 404: Not Found, ()
+2018-01-01 13:10:10,948 ERROR crawlers.crawler could not make a soup for /news/wirtschaft/
+2018-01-01 13:10:11,187 ERROR utils.utils Could not make soup: HTTP Error 404: Not Found, ()
+2018-01-01 13:10:11,189 ERROR crawlers.crawler could not make a soup for /news/wirtschaft/page2/
+2018-01-01 13:10:11,480 ERROR utils.utils Could not make soup: HTTP Error 404: Not Found, ()
+2018-01-01 13:10:11,483 ERROR crawlers.crawler could not make a soup for /news/wirtschaft/page3/
+2018-01-01 13:10:11,713 ERROR utils.utils Could not make soup: HTTP Error 404: Not Found, ()
+2018-01-01 13:10:11,716 ERROR crawlers.crawler could not make a soup for /news/wirtschaft/page4/
+2018-01-01 13:10:11,716 INFO fetcher Download a total of 876 stories.
+2018-01-01 13:10:11,891 INFO fetcher fetch articles newer than 2017-12-26 15:51:00
+2018-01-01 13:11:16,205 INFO __main__ Successfully configured logger
+2018-01-01 13:11:16,211 INFO werkzeug  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-01-01 13:17:48,280 INFO werkzeug 127.0.0.1 - - [01/Jan/2018 13:17:48] "GET / HTTP/1.1" 200 -
+2018-01-01 13:17:48,403 INFO werkzeug 127.0.0.1 - - [01/Jan/2018 13:17:48] "GET /static/jquery.js HTTP/1.1" 200 -
+2018-01-01 13:17:48,405 INFO werkzeug 127.0.0.1 - - [01/Jan/2018 13:17:48] "GET /static/w3.css HTTP/1.1" 304 -
+2018-01-01 13:17:48,406 INFO werkzeug 127.0.0.1 - - [01/Jan/2018 13:17:48] "GET /static/style.css HTTP/1.1" 304 -
+2018-01-01 13:20:19,891 INFO __main__ Successfully configured logger
+2018-01-01 13:20:19,898 INFO werkzeug  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-01-01 13:20:26,855 INFO werkzeug 127.0.0.1 - - [01/Jan/2018 13:20:26] "GET / HTTP/1.1" 200 -
+2018-01-01 13:21:21,542 INFO __main__ Successfully configured logger
+2018-01-01 13:21:21,548 INFO werkzeug  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-01-01 13:21:27,577 INFO werkzeug 127.0.0.1 - - [01/Jan/2018 13:21:27] "GET / HTTP/1.1" 200 -
+2018-01-01 13:21:48,058 INFO __main__ Successfully configured logger
+2018-01-01 13:21:48,065 INFO werkzeug  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-01-01 13:21:56,100 INFO werkzeug 127.0.0.1 - - [01/Jan/2018 13:21:56] "GET / HTTP/1.1" 200 -
+2018-01-01 13:22:00,538 INFO fetcher Set up fetcher for collection watson
+2018-01-01 13:22:00,538 INFO werkzeug 127.0.0.1 - - [01/Jan/2018 13:22:00] "GET /task_info/watson HTTP/1.1" 200 -
+2018-01-01 13:22:00,542 INFO fetcher fetching stories of journal watson in thread Thread-1
+2018-01-01 13:22:00,547 INFO werkzeug 127.0.0.1 - - [01/Jan/2018 13:22:00] "GET /fetch/watson HTTP/1.1" 200 -
+2018-01-01 13:22:07,283 ERROR utils.utils Could not make soup: HTTP Error 404: Not Found, ()
+2018-01-01 13:22:07,286 ERROR crawlers.crawler could not make a soup for /news/wirtschaft/
+2018-01-01 13:22:07,496 ERROR utils.utils Could not make soup: HTTP Error 404: Not Found, ()
+2018-01-01 13:22:07,499 ERROR crawlers.crawler could not make a soup for /news/wirtschaft/page2/
+2018-01-01 13:22:07,781 ERROR utils.utils Could not make soup: HTTP Error 404: Not Found, ()
+2018-01-01 13:22:07,784 ERROR crawlers.crawler could not make a soup for /news/wirtschaft/page3/
+2018-01-01 13:22:08,053 ERROR utils.utils Could not make soup: HTTP Error 404: Not Found, ()
+2018-01-01 13:22:08,055 ERROR crawlers.crawler could not make a soup for /news/wirtschaft/page4/
+2018-01-01 13:22:08,055 INFO fetcher Download a total of 876 stories.
+2018-01-01 13:22:08,063 INFO fetcher fetch articles newer than 2017-12-26 15:51:00
+2018-01-01 13:22:09,502 INFO fetcher Set up fetcher for collection twenty_minutes
+2018-01-01 13:22:09,502 INFO fetcher fetching stories of journal twenty_minutes in thread Thread-2
+2018-01-01 13:22:09,507 INFO werkzeug 127.0.0.1 - - [01/Jan/2018 13:22:09] "GET /fetch/twenty_minutes HTTP/1.1" 200 -
+2018-01-01 13:22:15,899 INFO fetcher Download a total of 950 stories.
+2018-01-01 13:22:16,077 INFO fetcher fetch articles newer than 2017-12-26 17:06:00
+2018-01-01 13:22:28,420 ERROR utils.utils Could not make soup: HTTP Error 404: Not Found, ()
+2018-01-01 13:22:28,423 ERROR fetcher could not make soup for story http://www.watson.ch/Schweiz/Wirtschaft/605141079-VW-Skandal--6000-Autobesitzer-in-der-Schweiz-haben-Schadenersatz-Klage-eingereicht
+2018-01-01 13:22:59,519 ERROR utils.utils Could not make soup: HTTP Error 403: Forbidden, ()
+2018-01-01 13:22:59,519 ERROR fetcher could not make soup for story http://www.20min.ch/community/social_promo/story/11730381
+2018-01-01 13:25:21,256 ERROR utils.utils Could not make soup: <urlopen error [Errno 8] nodename nor servname provided, or not known>, (gaierror(8, 'nodename nor servname provided, or not known'),)
+2018-01-01 13:25:21,257 ERROR fetcher could not make soup for story http://www.watson.chhttps://www.watson.ch/videos/!18933
+2018-01-01 13:25:47,447 ERROR utils.utils Could not make soup: <urlopen error [Errno 8] nodename nor servname provided, or not known>, (gaierror(8, 'nodename nor servname provided, or not known'),)
+2018-01-01 13:25:47,448 ERROR fetcher could not make soup for story http://www.watson.chhttps://www.watson.ch/videos/!19034
+2018-01-01 13:25:48,887 ERROR utils.utils Could not make soup: HTTP Error 403: Forbidden, ()
+2018-01-01 13:25:48,887 ERROR fetcher could not make soup for story http://www.20min.ch/community/social_promo/story/28730569
+2018-01-01 13:26:14,384 ERROR utils.utils Could not make soup: HTTP Error 403: Forbidden, ()
+2018-01-01 13:26:14,385 ERROR fetcher could not make soup for story http://www.20min.ch/paidpost/stories/story/27316907
+2018-01-01 13:26:55,034 ERROR utils.utils Could not make soup: <urlopen error [Errno 8] nodename nor servname provided, or not known>, (gaierror(8, 'nodename nor servname provided, or not known'),)
+2018-01-01 13:26:55,034 ERROR fetcher could not make soup for story http://www.watson.chhttps://www.watson.ch/videos/!18261
+2018-01-01 13:27:39,822 ERROR utils.utils Could not make soup: <urlopen error [Errno 8] nodename nor servname provided, or not known>, (gaierror(8, 'nodename nor servname provided, or not known'),)
+2018-01-01 13:27:39,823 ERROR fetcher could not make soup for story http://www.watson.chhttp://www.watson.ch/videos/!17087
+2018-01-01 13:27:46,579 ERROR utils.utils Could not make soup: <urlopen error [Errno 8] nodename nor servname provided, or not known>, (gaierror(8, 'nodename nor servname provided, or not known'),)
+2018-01-01 13:27:46,579 ERROR fetcher could not make soup for story http://www.watson.chhttps://www.watson.ch/videos/!18997
+2018-01-01 13:28:01,914 ERROR utils.utils Could not make soup: <urlopen error [Errno 8] nodename nor servname provided, or not known>, (gaierror(8, 'nodename nor servname provided, or not known'),)
+2018-01-01 13:28:01,914 ERROR fetcher could not make soup for story http://www.watson.chhttp://www.watson.ch/videos/!17514
+2018-01-01 13:28:13,962 ERROR utils.utils Could not make soup: HTTP Error 403: Forbidden, ()
+2018-01-01 13:28:13,963 ERROR fetcher could not make soup for story http://www.20min.ch/entertainment/lifeguide/story/Der-richtige-Film-fuer-den-grossen-Brummschaedel-27552444
+2018-01-01 13:28:40,261 ERROR utils.utils Could not make soup: 'ascii' codec can't encode character '\xf6' in position 6: ordinal not in range(128), ('ascii', 'GET /Börse+und+Co HTTP/1.1', 6, 7, 'ordinal not in range(128)')
+2018-01-01 13:28:40,262 ERROR fetcher could not make soup for story http://www.watson.ch/Börse+und+Co
+2018-01-01 13:29:18,866 ERROR utils.utils Could not make soup: 'ascii' codec can't encode character '\xfc' in position 8: ordinal not in range(128), ('ascii', 'GET /gefühle HTTP/1.1', 8, 9, 'ordinal not in range(128)')
+2018-01-01 13:29:18,866 ERROR fetcher could not make soup for story http://www.watson.ch/gefühle
+2018-01-01 13:30:00,104 ERROR utils.utils Could not make soup: HTTP Error 403: Forbidden, ()
+2018-01-01 13:30:00,104 ERROR fetcher could not make soup for story http://www.20min.ch/paidpost/stories/story/29473605
+2018-01-01 13:30:05,536 ERROR utils.utils Could not make soup: <urlopen error [Errno 8] nodename nor servname provided, or not known>, (gaierror(8, 'nodename nor servname provided, or not known'),)
+2018-01-01 13:30:05,536 ERROR fetcher could not make soup for story http://www.watson.chhttps://www.watson.ch/videos/!18350
+2018-01-01 13:30:05,537 ERROR utils.utils Could not make soup: <urlopen error [Errno 8] nodename nor servname provided, or not known>, (gaierror(8, 'nodename nor servname provided, or not known'),)
+2018-01-01 13:30:05,537 ERROR fetcher could not make soup for story http://www.watson.chhttp://www.watson.ch/videos/!18219
+2018-01-01 13:30:08,375 INFO db.mongo_db Bulk operation finished with errors: ('batch op errors occurred',)
+2018-01-01 13:30:08,692 ERROR utils.utils Could not make soup: <urlopen error [Errno 8] nodename nor servname provided, or not known>, (gaierror(8, 'nodename nor servname provided, or not known'),)
+2018-01-01 13:30:08,692 ERROR fetcher could not make soup for story http://www.watson.chhttp://www.watson.ch/videos/!18109
+2018-01-01 13:30:51,337 INFO db.mongo_db Bulk operation finished with errors: ('batch op errors occurred',)
+2018-01-01 16:00:04,094 INFO __main__ Successfully configured logger
+2018-01-01 16:00:04,101 INFO werkzeug  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-01-01 16:00:11,980 INFO werkzeug 127.0.0.1 - - [01/Jan/2018 16:00:11] "GET / HTTP/1.1" 200 -
+2018-01-01 16:00:22,163 INFO fetcher Set up fetcher for collection watson
+2018-01-01 16:00:22,163 INFO fetcher fetching stories of journal watson in thread Thread-1
+2018-01-01 16:00:22,168 INFO werkzeug 127.0.0.1 - - [01/Jan/2018 16:00:22] "GET /fetch/watson HTTP/1.1" 200 -
+2018-01-01 16:00:28,927 ERROR utils.utils Could not make soup: HTTP Error 404: Not Found, ()
+2018-01-01 16:00:28,929 ERROR crawlers.crawler could not make a soup for /news/wirtschaft/
+2018-01-01 16:00:29,165 ERROR utils.utils Could not make soup: HTTP Error 404: Not Found, ()
+2018-01-01 16:00:29,168 ERROR crawlers.crawler could not make a soup for /news/wirtschaft/page2/
+2018-01-01 16:00:29,436 ERROR utils.utils Could not make soup: HTTP Error 404: Not Found, ()
+2018-01-01 16:00:29,439 ERROR crawlers.crawler could not make a soup for /news/wirtschaft/page3/
+2018-01-01 16:00:29,680 ERROR utils.utils Could not make soup: HTTP Error 404: Not Found, ()
+2018-01-01 16:00:29,682 ERROR crawlers.crawler could not make a soup for /news/wirtschaft/page4/
+2018-01-01 16:00:29,682 INFO fetcher Download a total of 876 stories.
+2018-01-01 16:00:29,690 INFO fetcher fetch articles newer than 2018-01-01 13:00:00
+2018-01-01 16:01:17,152 INFO __main__ Successfully configured logger
+2018-01-01 16:01:17,159 INFO werkzeug  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-01-01 16:01:23,562 INFO werkzeug 127.0.0.1 - - [01/Jan/2018 16:01:23] "GET / HTTP/1.1" 200 -
+2018-01-01 16:01:29,203 INFO fetcher Set up fetcher for collection watson
+2018-01-01 16:01:29,204 INFO fetcher fetching stories of journal watson in thread Thread-1
+2018-01-01 16:01:29,208 INFO werkzeug 127.0.0.1 - - [01/Jan/2018 16:01:29] "GET /fetch/watson HTTP/1.1" 200 -
+2018-01-01 16:01:35,675 ERROR utils.utils Could not make soup: HTTP Error 404: Not Found, ()
+2018-01-01 16:01:35,678 ERROR crawlers.crawler could not make a soup for /news/wirtschaft/
+2018-01-01 16:01:35,925 ERROR utils.utils Could not make soup: HTTP Error 404: Not Found, ()
+2018-01-01 16:01:35,928 ERROR crawlers.crawler could not make a soup for /news/wirtschaft/page2/
+2018-01-01 16:01:36,168 ERROR utils.utils Could not make soup: HTTP Error 404: Not Found, ()
+2018-01-01 16:01:36,172 ERROR crawlers.crawler could not make a soup for /news/wirtschaft/page3/
+2018-01-01 16:01:36,424 ERROR utils.utils Could not make soup: HTTP Error 404: Not Found, ()
+2018-01-01 16:01:36,428 ERROR crawlers.crawler could not make a soup for /news/wirtschaft/page4/
+2018-01-01 16:01:36,428 INFO fetcher Download a total of 876 stories.
+2018-01-01 16:01:36,436 INFO fetcher fetch articles newer than 2018-01-01 13:00:00
+2018-01-01 16:02:29,736 ERROR utils.utils Could not make soup: HTTP Error 404: Not Found, ()
+2018-01-01 16:02:29,739 ERROR fetcher could not make soup for story http://www.watson.ch/Schweiz/SBB/973187220-Da-staunten-die-Pendler-nicht-schlecht-%E2%80%93-Heiratsantrag-via-Zugdurchsage
+2018-01-01 16:04:37,368 ERROR utils.utils Could not make soup: <urlopen error [Errno 8] nodename nor servname provided, or not known>, (gaierror(8, 'nodename nor servname provided, or not known'),)
+2018-01-01 16:04:37,368 ERROR fetcher could not make soup for story http://www.watson.chhttps://www.watson.ch/videos/!19034
+2018-01-01 16:04:39,986 ERROR utils.utils Could not make soup: <urlopen error [Errno 8] nodename nor servname provided, or not known>, (gaierror(8, 'nodename nor servname provided, or not known'),)
+2018-01-01 16:04:39,986 ERROR fetcher could not make soup for story http://www.watson.chhttps://www.watson.ch/videos/!18933
+2018-01-01 16:05:48,110 ERROR utils.utils Could not make soup: <urlopen error [Errno 8] nodename nor servname provided, or not known>, (gaierror(8, 'nodename nor servname provided, or not known'),)
+2018-01-01 16:05:48,110 ERROR fetcher could not make soup for story http://www.watson.chhttps://www.watson.ch/videos/!18261
+2018-01-01 16:06:25,594 ERROR utils.utils Could not make soup: <urlopen error [Errno 8] nodename nor servname provided, or not known>, (gaierror(8, 'nodename nor servname provided, or not known'),)
+2018-01-01 16:06:25,594 ERROR fetcher could not make soup for story http://www.watson.chhttps://www.watson.ch/videos/!18997
+2018-01-01 16:06:27,310 ERROR utils.utils Could not make soup: <urlopen error [Errno 8] nodename nor servname provided, or not known>, (gaierror(8, 'nodename nor servname provided, or not known'),)
+2018-01-01 16:06:27,310 ERROR fetcher could not make soup for story http://www.watson.chhttp://www.watson.ch/videos/!17087
+2018-01-01 16:06:39,431 ERROR utils.utils Could not make soup: <urlopen error [Errno 8] nodename nor servname provided, or not known>, (gaierror(8, 'nodename nor servname provided, or not known'),)
+2018-01-01 16:06:39,431 ERROR fetcher could not make soup for story http://www.watson.chhttp://www.watson.ch/videos/!17514
+2018-01-01 16:07:26,277 ERROR utils.utils Could not make soup: 'ascii' codec can't encode character '\xf6' in position 6: ordinal not in range(128), ('ascii', 'GET /Börse+und+Co HTTP/1.1', 6, 7, 'ordinal not in range(128)')
+2018-01-01 16:07:26,277 ERROR fetcher could not make soup for story http://www.watson.ch/Börse+und+Co
+2018-01-01 16:07:42,806 ERROR utils.utils Could not make soup: 'ascii' codec can't encode character '\xfc' in position 8: ordinal not in range(128), ('ascii', 'GET /gefühle HTTP/1.1', 8, 9, 'ordinal not in range(128)')
+2018-01-01 16:07:42,806 ERROR fetcher could not make soup for story http://www.watson.ch/gefühle
+2018-01-01 16:08:46,411 ERROR utils.utils Could not make soup: <urlopen error [Errno 8] nodename nor servname provided, or not known>, (gaierror(8, 'nodename nor servname provided, or not known'),)
+2018-01-01 16:08:46,411 ERROR fetcher could not make soup for story http://www.watson.chhttp://www.watson.ch/videos/!18219
+2018-01-01 16:08:49,365 ERROR utils.utils Could not make soup: <urlopen error [Errno 8] nodename nor servname provided, or not known>, (gaierror(8, 'nodename nor servname provided, or not known'),)
+2018-01-01 16:08:49,365 ERROR fetcher could not make soup for story http://www.watson.chhttps://www.watson.ch/videos/!18350
+2018-01-01 16:08:49,366 ERROR utils.utils Could not make soup: <urlopen error [Errno 8] nodename nor servname provided, or not known>, (gaierror(8, 'nodename nor servname provided, or not known'),)
+2018-01-01 16:08:49,366 ERROR fetcher could not make soup for story http://www.watson.chhttp://www.watson.ch/videos/!18109
+2018-01-01 16:09:23,938 INFO db.mongo_db Bulk operation finished with errors: ('batch op errors occurred',)
+2018-01-04 16:39:31,550 INFO __main__ Successfully configured logger
+2018-01-04 16:39:31,560 INFO werkzeug  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-01-04 16:39:40,803 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:39:40] "GET / HTTP/1.1" 200 -
+2018-01-04 16:39:40,844 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:39:40] "GET /static/w3.css HTTP/1.1" 304 -
+2018-01-04 16:39:40,845 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:39:40] "GET /static/style.css HTTP/1.1" 304 -
+2018-01-04 16:39:40,846 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:39:40] "GET /static/jquery.js HTTP/1.1" 304 -
+2018-01-04 16:39:52,715 INFO fetcher Set up fetcher for collection watson
+2018-01-04 16:39:52,715 INFO fetcher fetching stories of journal watson in thread Thread-1
+2018-01-04 16:39:52,719 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:39:52] "GET /fetch/watson HTTP/1.1" 200 -
+2018-01-04 16:39:59,256 ERROR utils.utils Could not make soup: HTTP Error 404: Not Found, ()
+2018-01-04 16:39:59,259 ERROR crawlers.crawler could not make a soup for /news/wirtschaft/
+2018-01-04 16:39:59,519 ERROR utils.utils Could not make soup: HTTP Error 404: Not Found, ()
+2018-01-04 16:39:59,521 ERROR crawlers.crawler could not make a soup for /news/wirtschaft/page2/
+2018-01-04 16:39:59,748 ERROR utils.utils Could not make soup: HTTP Error 404: Not Found, ()
+2018-01-04 16:39:59,751 ERROR crawlers.crawler could not make a soup for /news/wirtschaft/page3/
+2018-01-04 16:39:59,963 ERROR utils.utils Could not make soup: HTTP Error 404: Not Found, ()
+2018-01-04 16:39:59,966 ERROR crawlers.crawler could not make a soup for /news/wirtschaft/page4/
+2018-01-04 16:39:59,966 INFO fetcher Download a total of 876 stories.
+2018-01-04 16:40:00,112 INFO fetcher fetch articles newer than 2018-01-01 13:00:00
+2018-01-04 16:41:02,873 INFO __main__ Successfully configured logger
+2018-01-04 16:41:02,882 INFO werkzeug  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-01-04 16:41:11,854 INFO fetcher Set up fetcher for collection watson
+2018-01-04 16:41:11,854 INFO fetcher fetching stories of journal watson in thread Thread-1
+2018-01-04 16:41:11,882 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:41:11] "GET /fetch/watson HTTP/1.1" 200 -
+2018-01-04 16:41:18,053 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:41:18] "GET /fetch/watson HTTP/1.1" 200 -
+2018-01-04 16:41:19,137 ERROR utils.utils Could not make soup: HTTP Error 404: Not Found, ()
+2018-01-04 16:41:19,140 ERROR crawlers.crawler could not make a soup for /news/wirtschaft/
+2018-01-04 16:41:19,353 ERROR utils.utils Could not make soup: HTTP Error 404: Not Found, ()
+2018-01-04 16:41:19,356 ERROR crawlers.crawler could not make a soup for /news/wirtschaft/page2/
+2018-01-04 16:41:19,593 ERROR utils.utils Could not make soup: HTTP Error 404: Not Found, ()
+2018-01-04 16:41:19,597 ERROR crawlers.crawler could not make a soup for /news/wirtschaft/page3/
+2018-01-04 16:41:19,822 ERROR utils.utils Could not make soup: HTTP Error 404: Not Found, ()
+2018-01-04 16:41:19,825 ERROR crawlers.crawler could not make a soup for /news/wirtschaft/page4/
+2018-01-04 16:41:19,826 INFO fetcher Download a total of 876 stories.
+2018-01-04 16:41:19,834 INFO fetcher fetch articles newer than 2018-01-01 13:00:00
+2018-01-04 16:41:23,680 INFO fetcher Set up fetcher for collection twenty_minutes
+2018-01-04 16:41:23,680 INFO fetcher fetching stories of journal twenty_minutes in thread Thread-2
+2018-01-04 16:41:23,684 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:41:23] "GET /fetch/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:41:29,254 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:41:29] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:41:29,690 INFO fetcher Download a total of 944 stories.
+2018-01-04 16:41:29,831 INFO fetcher fetch articles newer than 2018-01-01 13:21:00
+2018-01-04 16:41:42,646 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:41:42] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:41:51,510 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:41:51] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:41:52,976 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:41:52] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:41:53,839 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:41:53] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:41:54,925 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:41:54] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:41:55,597 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:41:55] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:41:56,087 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:41:56] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:41:57,023 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:41:57] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:41:57,606 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:41:57] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:41:59,154 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:41:59] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:41:59,794 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:41:59] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:42:00,440 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:42:00] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:42:01,092 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:42:01] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:42:01,587 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:42:01] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:42:02,042 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:42:02] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:42:02,555 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:42:02] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:42:03,091 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:42:03] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:42:04,757 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:42:04] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:42:05,351 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:42:05] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:42:05,925 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:42:05] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:42:06,301 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:42:06] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:42:06,565 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:42:06] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:42:06,803 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:42:06] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:42:07,017 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:42:07] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:42:07,210 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:42:07] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:42:07,755 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:42:07] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:42:07,818 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:42:07] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:42:07,858 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:42:07] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:42:08,033 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:42:08] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:42:08,086 ERROR utils.utils Could not make soup: HTTP Error 403: Forbidden, ()
+2018-01-04 16:42:08,086 ERROR fetcher could not make soup for story http://www.20min.ch/paidpost/stories/story/19049849
+2018-01-04 16:42:08,225 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:42:08] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:42:45,867 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:42:45] "GET /stat_info/20_min HTTP/1.1" 404 -
+2018-01-04 16:42:57,218 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:42:57] "GET /stat_info/twenty_minutes HTTP/1.1" 404 -
+2018-01-04 16:43:09,621 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:43:09] "GET /stat_info/watson HTTP/1.1" 404 -
+2018-01-04 16:43:22,408 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:43:22] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:43:47,392 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:43:47] "GET /task_info/watson HTTP/1.1" 200 -
+2018-01-04 16:44:05,448 INFO fetcher Set up fetcher for collection 20_min
+2018-01-04 16:44:05,575 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:44:05] "GET /task_info/20_min HTTP/1.1" 500 -
+2018-01-04 16:44:43,367 ERROR utils.utils Could not make soup: <urlopen error [Errno 8] nodename nor servname provided, or not known>, (gaierror(8, 'nodename nor servname provided, or not known'),)
+2018-01-04 16:44:43,367 ERROR fetcher could not make soup for story http://www.watson.chhttps://www.watson.ch/videos/!19034
+2018-01-04 16:44:47,298 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:44:47] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:44:59,941 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:44:59] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:45:07,162 ERROR utils.utils Could not make soup: HTTP Error 403: Forbidden, ()
+2018-01-04 16:45:07,162 ERROR fetcher could not make soup for story http://www.20min.ch/paidpost/stories/story/19049849
+2018-01-04 16:45:08,707 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:45:08] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:45:11,447 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:45:11] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:45:12,604 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:45:12] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:45:13,170 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:45:13] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:45:13,382 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:45:13] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:45:13,558 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:45:13] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:45:13,730 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:45:13] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:45:13,986 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:45:13] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:45:28,711 ERROR utils.utils Could not make soup: HTTP Error 403: Forbidden, ()
+2018-01-04 16:45:28,712 ERROR fetcher could not make soup for story http://www.20min.ch/newsexpress/stories/story/13851340
+2018-01-04 16:46:11,743 ERROR utils.utils Could not make soup: <urlopen error [Errno 8] nodename nor servname provided, or not known>, (gaierror(8, 'nodename nor servname provided, or not known'),)
+2018-01-04 16:46:11,744 ERROR fetcher could not make soup for story http://www.watson.chhttps://www.watson.ch/videos/!18261
+2018-01-04 16:46:55,724 ERROR utils.utils Could not make soup: <urlopen error [Errno 8] nodename nor servname provided, or not known>, (gaierror(8, 'nodename nor servname provided, or not known'),)
+2018-01-04 16:46:55,724 ERROR fetcher could not make soup for story http://www.watson.chhttps://www.watson.ch/videos/!18997
+2018-01-04 16:46:57,109 ERROR utils.utils Could not make soup: <urlopen error [Errno 8] nodename nor servname provided, or not known>, (gaierror(8, 'nodename nor servname provided, or not known'),)
+2018-01-04 16:46:57,109 ERROR fetcher could not make soup for story http://www.watson.chhttp://www.watson.ch/videos/!17087
+2018-01-04 16:47:26,448 ERROR utils.utils Could not make soup: <urlopen error [Errno 8] nodename nor servname provided, or not known>, (gaierror(8, 'nodename nor servname provided, or not known'),)
+2018-01-04 16:47:26,448 ERROR fetcher could not make soup for story http://www.watson.chhttp://www.watson.ch/videos/!17514
+2018-01-04 16:47:34,299 ERROR utils.utils Could not make soup: 'ascii' codec can't encode character '\xf6' in position 6: ordinal not in range(128), ('ascii', 'GET /Börse+und+Co HTTP/1.1', 6, 7, 'ordinal not in range(128)')
+2018-01-04 16:47:34,300 ERROR fetcher could not make soup for story http://www.watson.ch/Börse+und+Co
+2018-01-04 16:47:46,008 ERROR utils.utils Could not make soup: HTTP Error 403: Forbidden, ()
+2018-01-04 16:47:46,008 ERROR fetcher could not make soup for story http://www.20min.ch/newsexpress/stories/story/13851340
+2018-01-04 16:48:00,143 ERROR utils.utils Could not make soup: HTTP Error 403: Forbidden, ()
+2018-01-04 16:48:00,143 ERROR fetcher could not make soup for story http://www.20min.ch/paidpost/stories/story/21310987
+2018-01-04 16:48:16,244 ERROR utils.utils Could not make soup: 'ascii' codec can't encode character '\xfc' in position 8: ordinal not in range(128), ('ascii', 'GET /gefühle HTTP/1.1', 8, 9, 'ordinal not in range(128)')
+2018-01-04 16:48:16,244 ERROR fetcher could not make soup for story http://www.watson.ch/gefühle
+2018-01-04 16:48:17,515 ERROR utils.utils Could not make soup: HTTP Error 403: Forbidden, ()
+2018-01-04 16:48:17,515 ERROR fetcher could not make soup for story http://www.20min.ch/newsexpress/stories/story/13851340
+2018-01-04 16:49:08,123 INFO db.mongo_db Bulk operation finished with errors: ('batch op errors occurred',)
+2018-01-04 16:49:34,045 ERROR utils.utils Could not make soup: <urlopen error [Errno 8] nodename nor servname provided, or not known>, (gaierror(8, 'nodename nor servname provided, or not known'),)
+2018-01-04 16:49:34,045 ERROR fetcher could not make soup for story http://www.watson.chhttps://www.watson.ch/videos/!18350
+2018-01-04 16:49:51,741 ERROR utils.utils Could not make soup: <urlopen error [Errno 8] nodename nor servname provided, or not known>, (gaierror(8, 'nodename nor servname provided, or not known'),)
+2018-01-04 16:49:51,741 ERROR fetcher could not make soup for story http://www.watson.chhttp://www.watson.ch/videos/!18219
+2018-01-04 16:50:00,482 ERROR utils.utils Could not make soup: <urlopen error [Errno 8] nodename nor servname provided, or not known>, (gaierror(8, 'nodename nor servname provided, or not known'),)
+2018-01-04 16:50:00,482 ERROR fetcher could not make soup for story http://www.watson.chhttp://www.watson.ch/videos/!18109
+2018-01-04 16:50:01,388 INFO db.mongo_db Bulk operation finished with errors: ('batch op errors occurred',)
+2018-01-04 16:50:57,209 INFO __main__ Successfully configured logger
+2018-01-04 16:50:57,217 INFO werkzeug  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-01-04 16:51:07,061 INFO fetcher Set up fetcher for collection twenty_minutes
+2018-01-04 16:51:07,061 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:51:07] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:51:16,249 INFO fetcher fetching stories of journal twenty_minutes in thread Thread-1
+2018-01-04 16:51:16,277 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:51:16] "GET /fetch/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:51:22,322 INFO fetcher Download a total of 944 stories.
+2018-01-04 16:51:22,344 INFO fetcher fetch articles newer than 2018-01-04 16:45:00
+2018-01-04 16:51:22,415 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:51:22] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:51:25,128 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:51:25] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:51:27,772 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:51:27] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:51:29,378 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:51:29] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:51:32,558 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:51:32] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:51:37,220 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:51:37] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:51:44,493 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:51:44] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:51:50,870 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:51:50] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:51:51,826 ERROR utils.utils Could not make soup: HTTP Error 403: Forbidden, ()
+2018-01-04 16:51:51,826 ERROR fetcher could not make soup for story http://www.20min.ch/paidpost/stories/story/19049849
+2018-01-04 16:51:53,958 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:51:53] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:51:57,540 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:51:57] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:52:00,439 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:52:00] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:52:03,011 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:52:03] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:52:05,495 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:52:05] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:52:07,018 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:52:07] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:52:08,098 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:52:08] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:52:11,946 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:52:11] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:52:14,148 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:52:14] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:52:14,995 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:52:14] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:52:15,632 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:52:15] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:52:16,131 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:52:16] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:52:16,659 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:52:16] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:52:16,937 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:52:16] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:52:17,222 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:52:17] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:52:17,428 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:52:17] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:52:17,664 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:52:17] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:52:18,204 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:52:18] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:52:18,640 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:52:18] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:52:18,938 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:52:18] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:52:19,237 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:52:19] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:52:19,470 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:52:19] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:52:20,984 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:52:20] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:52:21,493 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:52:21] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:52:22,032 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:52:22] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:52:22,379 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:52:22] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:52:23,758 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:52:23] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:52:25,273 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:52:25] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:52:36,511 INFO fetcher Set up fetcher for collection watson
+2018-01-04 16:52:36,512 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:52:36] "GET /task_info/watson HTTP/1.1" 200 -
+2018-01-04 16:52:39,606 INFO fetcher Set up fetcher for collection blick
+2018-01-04 16:52:39,607 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:52:39] "GET /task_info/blick HTTP/1.1" 200 -
+2018-01-04 16:53:14,809 INFO werkzeug 127.0.0.1 - - [04/Jan/2018 16:53:14] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-01-04 16:54:44,865 ERROR utils.utils Could not make soup: HTTP Error 403: Forbidden, ()
+2018-01-04 16:54:44,865 ERROR fetcher could not make soup for story http://www.20min.ch/paidpost/stories/story/19049849
+2018-01-04 16:54:58,981 ERROR utils.utils Could not make soup: HTTP Error 403: Forbidden, ()
+2018-01-04 16:54:58,981 ERROR fetcher could not make soup for story http://www.20min.ch/newsexpress/stories/story/13851340
+2018-01-04 16:57:09,068 ERROR utils.utils Could not make soup: HTTP Error 403: Forbidden, ()
+2018-01-04 16:57:09,069 ERROR fetcher could not make soup for story http://www.20min.ch/newsexpress/stories/story/13851340
+2018-01-04 16:57:19,767 ERROR utils.utils Could not make soup: HTTP Error 403: Forbidden, ()
+2018-01-04 16:57:19,767 ERROR fetcher could not make soup for story http://www.20min.ch/paidpost/stories/story/21310987
+2018-01-04 16:57:32,207 ERROR utils.utils Could not make soup: HTTP Error 403: Forbidden, ()
+2018-01-04 16:57:32,207 ERROR fetcher could not make soup for story http://www.20min.ch/newsexpress/stories/story/13851340
+2018-01-04 16:58:21,489 INFO db.mongo_db Bulk operation finished with errors: ('batch op errors occurred',)
+2018-03-03 23:07:37,269 INFO __main__ Successfully configured logger
+2018-03-03 23:07:37,278 INFO werkzeug  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-03-03 23:08:29,400 INFO werkzeug 127.0.0.1 - - [03/Mar/2018 23:08:29] "GET / HTTP/1.1" 500 -
+2018-03-03 23:08:29,431 INFO werkzeug 127.0.0.1 - - [03/Mar/2018 23:08:29] "GET /favicon.ico HTTP/1.1" 404 -
+2018-03-04 01:37:33,825 INFO __main__ Successfully configured logger
+2018-03-04 01:37:33,833 INFO werkzeug  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-03-04 01:37:47,096 INFO db.mongo_db Collection 'twenty_minutes' not found... going to create and set index
+2018-03-04 01:37:47,205 INFO db.mongo_db Collection 'blick' not found... going to create and set index
+2018-03-04 01:37:47,295 INFO db.mongo_db Collection 'watson' not found... going to create and set index
+2018-03-04 01:37:47,412 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:37:47] "GET / HTTP/1.1" 200 -
+2018-03-04 01:37:47,422 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:37:47] "GET /static/w3.css HTTP/1.1" 200 -
+2018-03-04 01:37:47,423 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:37:47] "GET /static/jquery.js HTTP/1.1" 200 -
+2018-03-04 01:37:47,425 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:37:47] "GET /static/style.css HTTP/1.1" 200 -
+2018-03-04 01:38:04,810 INFO fetcher Set up fetcher for collection twenty_minutes
+2018-03-04 01:38:04,810 INFO fetcher fetching stories of journal twenty_minutes in thread Thread-1
+2018-03-04 01:38:04,815 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:38:04] "GET /fetch/twenty_minutes HTTP/1.1" 200 -
+2018-03-04 01:38:10,960 INFO fetcher Download a total of 952 stories.
+2018-03-04 01:39:06,829 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:39:06] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-03-04 01:39:15,114 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:39:15] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-03-04 01:39:18,947 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:39:18] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-03-04 01:39:22,542 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:39:22] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-03-04 01:39:24,677 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:39:24] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-03-04 01:39:27,697 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:39:27] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-03-04 01:39:38,200 ERROR utils.utils Could not make soup: <urlopen error [Errno 8] nodename nor servname provided, or not known>, (gaierror(8, 'nodename nor servname provided, or not known'),)
+2018-03-04 01:39:38,201 ERROR fetcher could not make soup for story http://www.20min.chhttp://www.20min.ch/community/stories/story/12670854
+2018-03-04 01:39:52,309 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:39:52] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-03-04 01:42:25,953 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:42:25] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-03-04 01:42:31,944 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:42:31] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-03-04 01:42:33,507 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:42:33] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-03-04 01:42:34,280 ERROR utils.utils Could not make soup: <urlopen error [Errno 8] nodename nor servname provided, or not known>, (gaierror(8, 'nodename nor servname provided, or not known'),)
+2018-03-04 01:42:34,280 ERROR fetcher could not make soup for story http://www.20min.chhttp://www.20min.ch/people/international/story/Er-schreibt-die-Hits-fuer-die-Kuenstler-18561590
+2018-03-04 01:42:35,771 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:42:35] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-03-04 01:42:38,764 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:42:38] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-03-04 01:42:40,947 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:42:40] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-03-04 01:42:43,542 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:42:43] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-03-04 01:43:09,626 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:43:09] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-03-04 01:43:13,671 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:43:13] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-03-04 01:43:15,721 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:43:15] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-03-04 01:43:17,275 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:43:17] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-03-04 01:43:18,894 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:43:18] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-03-04 01:43:21,479 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:43:21] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-03-04 01:43:24,030 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:43:24] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-03-04 01:47:10,587 INFO db.mongo_db Bulk operation success: <pymongo.results.InsertManyResult object at 0x152ed06c0>
+2018-03-04 01:47:28,064 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:47:28] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-03-04 01:47:33,922 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:47:33] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-03-04 01:47:36,499 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:47:36] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2018-03-04 01:47:43,456 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:47:43] "GET / HTTP/1.1" 200 -
+2018-03-04 01:47:57,180 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:47:57] "GET /term_analysis/?term=No-Billag HTTP/1.1" 500 -
+2018-03-04 01:49:51,522 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:49:51] "GET / HTTP/1.1" 200 -
+2018-03-04 01:49:55,481 INFO fetcher Set up fetcher for collection watson
+2018-03-04 01:49:55,481 INFO fetcher fetching stories of journal watson in thread Thread-2
+2018-03-04 01:49:55,487 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:49:55] "GET /fetch/watson HTTP/1.1" 200 -
+2018-03-04 01:50:00,556 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:50:00] "GET /task_info/watson HTTP/1.1" 200 -
+2018-03-04 01:50:01,971 ERROR utils.utils Could not make soup: HTTP Error 404: Not Found, ()
+2018-03-04 01:50:01,975 ERROR crawlers.crawler could not make a soup for /news/wirtschaft/
+2018-03-04 01:50:02,237 ERROR utils.utils Could not make soup: HTTP Error 404: Not Found, ()
+2018-03-04 01:50:02,240 ERROR crawlers.crawler could not make a soup for /news/wirtschaft/page2/
+2018-03-04 01:50:02,478 ERROR utils.utils Could not make soup: HTTP Error 404: Not Found, ()
+2018-03-04 01:50:02,481 ERROR crawlers.crawler could not make a soup for /news/wirtschaft/page3/
+2018-03-04 01:50:02,697 ERROR utils.utils Could not make soup: HTTP Error 404: Not Found, ()
+2018-03-04 01:50:02,701 ERROR crawlers.crawler could not make a soup for /news/wirtschaft/page4/
+2018-03-04 01:50:02,701 INFO fetcher Download a total of 876 stories.
+2018-03-04 01:50:04,240 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:50:04] "GET /task_info/watson HTTP/1.1" 200 -
+2018-03-04 01:50:09,129 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:50:09] "GET /task_info/watson HTTP/1.1" 200 -
+2018-03-04 01:50:18,778 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:50:18] "GET /task_info/watson HTTP/1.1" 200 -
+2018-03-04 01:50:27,664 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:50:27] "GET /task_info/watson HTTP/1.1" 200 -
+2018-03-04 01:50:33,901 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:50:33] "GET /task_info/watson HTTP/1.1" 200 -
+2018-03-04 01:50:38,158 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:50:38] "GET /task_info/watson HTTP/1.1" 200 -
+2018-03-04 01:50:42,565 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:50:42] "GET /task_info/watson HTTP/1.1" 200 -
+2018-03-04 01:50:45,411 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:50:45] "GET /task_info/watson HTTP/1.1" 200 -
+2018-03-04 01:50:47,298 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:50:47] "GET /task_info/watson HTTP/1.1" 200 -
+2018-03-04 01:50:48,306 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:50:48] "GET /task_info/watson HTTP/1.1" 200 -
+2018-03-04 01:50:51,391 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:50:51] "GET /task_info/watson HTTP/1.1" 200 -
+2018-03-04 01:50:53,434 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:50:53] "GET /task_info/watson HTTP/1.1" 200 -
+2018-03-04 01:50:54,410 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:50:54] "GET /task_info/watson HTTP/1.1" 200 -
+2018-03-04 01:50:55,172 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:50:55] "GET /task_info/watson HTTP/1.1" 200 -
+2018-03-04 01:50:57,240 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:50:57] "GET /task_info/watson HTTP/1.1" 200 -
+2018-03-04 01:51:02,373 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:51:02] "GET /task_info/watson HTTP/1.1" 200 -
+2018-03-04 01:51:06,711 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:51:06] "GET /task_info/watson HTTP/1.1" 200 -
+2018-03-04 01:51:14,947 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:51:14] "GET /task_info/watson HTTP/1.1" 200 -
+2018-03-04 01:51:22,159 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:51:22] "GET /task_info/watson HTTP/1.1" 200 -
+2018-03-04 01:51:26,545 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:51:26] "GET /task_info/watson HTTP/1.1" 200 -
+2018-03-04 01:51:32,530 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:51:32] "GET /task_info/watson HTTP/1.1" 200 -
+2018-03-04 01:51:34,716 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:51:34] "GET /task_info/watson HTTP/1.1" 200 -
+2018-03-04 01:51:37,302 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:51:37] "GET /task_info/watson HTTP/1.1" 200 -
+2018-03-04 01:52:49,696 ERROR utils.utils Could not make soup: <urlopen error [Errno 8] nodename nor servname provided, or not known>, (gaierror(8, 'nodename nor servname provided, or not known'),)
+2018-03-04 01:52:49,696 ERROR fetcher could not make soup for story http://www.watson.chhttps://www.watson.ch/videos/!19839
+2018-03-04 01:53:01,002 ERROR utils.utils Could not make soup: <urlopen error [Errno 8] nodename nor servname provided, or not known>, (gaierror(8, 'nodename nor servname provided, or not known'),)
+2018-03-04 01:53:01,002 ERROR fetcher could not make soup for story http://www.watson.chhttps://www.watson.ch/videos/!19884
+2018-03-04 01:53:19,477 ERROR utils.utils Could not make soup: <urlopen error [Errno 8] nodename nor servname provided, or not known>, (gaierror(8, 'nodename nor servname provided, or not known'),)
+2018-03-04 01:53:19,477 ERROR fetcher could not make soup for story http://www.watson.chhttps://www.watson.ch/videos/!19830
+2018-03-04 01:55:38,364 ERROR utils.utils Could not make soup: <urlopen error [Errno 8] nodename nor servname provided, or not known>, (gaierror(8, 'nodename nor servname provided, or not known'),)
+2018-03-04 01:55:38,364 ERROR fetcher could not make soup for story http://www.watson.chhttp://www.watson.ch/videos/!17514
+2018-03-04 01:55:50,474 ERROR utils.utils Could not make soup: <urlopen error [Errno 8] nodename nor servname provided, or not known>, (gaierror(8, 'nodename nor servname provided, or not known'),)
+2018-03-04 01:55:50,474 ERROR fetcher could not make soup for story http://www.watson.chhttps://www.watson.ch/videos/!18997
+2018-03-04 01:55:58,399 ERROR utils.utils Could not make soup: 'ascii' codec can't encode character '\xf6' in position 6: ordinal not in range(128), ('ascii', 'GET /Börse+und+Co HTTP/1.1', 6, 7, 'ordinal not in range(128)')
+2018-03-04 01:55:58,399 ERROR fetcher could not make soup for story http://www.watson.ch/Börse+und+Co
+2018-03-04 01:56:19,154 ERROR utils.utils Could not make soup: <urlopen error [Errno 8] nodename nor servname provided, or not known>, (gaierror(8, 'nodename nor servname provided, or not known'),)
+2018-03-04 01:56:19,154 ERROR fetcher could not make soup for story http://www.watson.chhttps://www.watson.ch/videos/!19941
+2018-03-04 01:56:23,123 ERROR utils.utils Could not make soup: <urlopen error [Errno 8] nodename nor servname provided, or not known>, (gaierror(8, 'nodename nor servname provided, or not known'),)
+2018-03-04 01:56:23,124 ERROR fetcher could not make soup for story http://www.watson.chhttps://www.watson.ch/videos/!19821
+2018-03-04 01:56:49,480 ERROR utils.utils Could not make soup: 'ascii' codec can't encode character '\xfc' in position 8: ordinal not in range(128), ('ascii', 'GET /gefühle HTTP/1.1', 8, 9, 'ordinal not in range(128)')
+2018-03-04 01:56:49,480 ERROR fetcher could not make soup for story http://www.watson.ch/gefühle
+2018-03-04 01:57:50,458 ERROR utils.utils Could not make soup: <urlopen error [Errno 8] nodename nor servname provided, or not known>, (gaierror(8, 'nodename nor servname provided, or not known'),)
+2018-03-04 01:57:50,458 ERROR fetcher could not make soup for story http://www.watson.chhttps://www.watson.ch/videos/!19127
+2018-03-04 01:58:10,418 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:58:10] "GET /task_info/watson HTTP/1.1" 200 -
+2018-03-04 01:58:32,310 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 01:58:32] "GET /task_info/watson HTTP/1.1" 200 -
+2018-03-04 01:58:40,381 INFO db.mongo_db Bulk operation success: <pymongo.results.InsertManyResult object at 0x154d70d38>
+2018-03-04 02:04:54,835 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 02:04:54] "GET /task_info/watson HTTP/1.1" 200 -
+2018-03-04 02:05:01,550 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 02:05:01] "GET /task_info/watson HTTP/1.1" 200 -
+2018-03-04 02:05:04,254 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 02:05:04] "GET /task_info/watson HTTP/1.1" 200 -
+2018-03-04 02:10:08,190 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 02:10:08] "GET /task_info/watson HTTP/1.1" 200 -
+2018-03-04 02:10:09,418 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 02:10:09] "GET /task_info/watson HTTP/1.1" 200 -
+2018-03-04 02:10:11,039 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 02:10:11] "GET /task_info/watson HTTP/1.1" 200 -
+2018-03-04 02:11:31,320 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 02:11:31] "GET /task_info/watson HTTP/1.1" 200 -
+2018-03-04 02:14:23,819 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 02:14:23] "GET /task_info/watson HTTP/1.1" 200 -
+2018-03-04 02:26:44,549 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 02:26:44] "GET /task_info/watson HTTP/1.1" 200 -
+2018-03-04 02:26:45,571 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 02:26:45] "GET /task_info/watson HTTP/1.1" 200 -
+2018-03-04 02:26:53,791 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 02:26:53] "GET /most_common/twenty_minutes HTTP/1.1" 200 -
+2018-03-04 02:27:11,443 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 02:27:11] "GET /term_analysis/?term=vincenz HTTP/1.1" 500 -
+2018-03-04 02:27:20,868 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 02:27:20] "GET / HTTP/1.1" 200 -
+2018-03-04 02:27:27,469 INFO werkzeug 127.0.0.1 - - [04/Mar/2018 02:27:27] "GET /show_journal/watson HTTP/1.1" 200 -
+2018-03-07 15:32:35,527 INFO werkzeug 127.0.0.1 - - [07/Mar/2018 15:32:35] "GET / HTTP/1.1" 200 -
+2018-03-07 15:32:35,547 INFO werkzeug 127.0.0.1 - - [07/Mar/2018 15:32:35] "GET /static/jquery.js HTTP/1.1" 304 -
+2018-03-07 15:32:35,548 INFO werkzeug 127.0.0.1 - - [07/Mar/2018 15:32:35] "GET /static/w3.css HTTP/1.1" 304 -
+2018-03-07 15:32:35,551 INFO werkzeug 127.0.0.1 - - [07/Mar/2018 15:32:35] "GET /static/style.css HTTP/1.1" 304 -
+2018-10-26 09:58:59,403 INFO __main__ Successfully configured logger
+2018-10-26 09:58:59,413 INFO werkzeug  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-10-28 13:31:35,949 INFO __main__ Successfully configured logger
+2018-10-28 13:31:35,958 INFO werkzeug  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-02-02 22:20:22,204 INFO __main__ Successfully configured logger
+2019-02-02 22:20:22,211 INFO werkzeug  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-02-02 22:22:23,908 INFO __main__ Successfully configured logger
+2019-02-02 22:22:23,915 INFO werkzeug  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-03-09 15:01:19,739 INFO __main__ Successfully configured logger
+2019-03-09 15:01:19,749 INFO werkzeug  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-03-09 15:49:09,964 INFO __main__ Successfully configured logger
+2019-03-09 15:49:09,972 INFO werkzeug  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-03-09 15:54:57,802 INFO __main__ Successfully configured logger
+2019-03-09 15:54:57,828 INFO werkzeug  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-03-09 22:25:32,502 INFO __main__ Successfully configured logger
+2019-03-09 22:25:32,510 INFO werkzeug  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-03-09 22:26:13,882 INFO db.mongo_db Collection 'twenty_minutes' not found... going to create and set index
+2019-03-09 22:26:13,995 INFO db.mongo_db Collection 'blick' not found... going to create and set index
+2019-03-09 22:26:14,123 INFO db.mongo_db Collection 'watson' not found... going to create and set index
+2019-03-09 22:26:14,240 INFO werkzeug 127.0.0.1 - - [09/Mar/2019 22:26:14] "GET / HTTP/1.1" 200 -
+2019-03-09 22:26:14,248 INFO werkzeug 127.0.0.1 - - [09/Mar/2019 22:26:14] "GET /static/w3.css HTTP/1.1" 200 -
+2019-03-09 22:26:14,818 INFO werkzeug 127.0.0.1 - - [09/Mar/2019 22:26:14] "GET /static/jquery.js HTTP/1.1" 200 -
+2019-03-09 22:26:14,822 INFO werkzeug 127.0.0.1 - - [09/Mar/2019 22:26:14] "GET /static/style.css HTTP/1.1" 304 -
+2019-03-09 22:26:29,308 INFO fetcher Set up fetcher for collection twenty_minutes
+2019-03-09 22:26:29,308 INFO fetcher fetching stories of journal twenty_minutes in thread Thread-1
+2019-03-09 22:26:29,314 INFO werkzeug 127.0.0.1 - - [09/Mar/2019 22:26:29] "GET /fetch/twenty_minutes HTTP/1.1" 200 -
+2019-03-09 22:26:39,685 INFO fetcher Download a total of 926 stories.
+2019-03-09 22:26:41,118 INFO werkzeug 127.0.0.1 - - [09/Mar/2019 22:26:41] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2019-03-09 22:27:07,230 INFO werkzeug 127.0.0.1 - - [09/Mar/2019 22:27:07] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2019-03-09 22:29:12,780 ERROR utils.utils Could not make soup: <urlopen error [Errno 8] nodename nor servname provided, or not known>, (gaierror(8, 'nodename nor servname provided, or not known'),)
+2019-03-09 22:29:12,780 ERROR fetcher could not make soup for story http://www.20min.chhttp://www.20min.ch/finance/news/story/16467357
+2019-03-09 22:33:19,809 ERROR utils.utils Could not make soup: HTTP Error 403: Forbidden, ()
+2019-03-09 22:33:19,814 ERROR fetcher could not make soup for story http://www.20min.ch/paidpost/stories/story/23205007
+2019-03-09 22:33:23,963 ERROR utils.utils Could not make soup: HTTP Error 403: Forbidden, ()
+2019-03-09 22:33:23,967 ERROR fetcher could not make soup for story http://www.20min.ch/motor/autosalon/story/18369140
+2019-03-09 22:33:25,033 ERROR utils.utils Could not make soup: HTTP Error 403: Forbidden, ()
+2019-03-09 22:33:25,036 ERROR fetcher could not make soup for story http://www.20min.ch/motor/autosalon/story/29712867
+2019-03-09 22:33:52,518 ERROR utils.utils Could not make soup: HTTP Error 403: Forbidden, ()
+2019-03-09 22:33:52,522 ERROR fetcher could not make soup for story http://www.20min.ch/motor/autosalon/story/21895513
+2019-03-09 22:34:18,151 ERROR utils.utils Could not make soup: HTTP Error 403: Forbidden, ()
+2019-03-09 22:34:18,154 ERROR fetcher could not make soup for story http://www.20min.ch/motor/autosalon/story/18369140
+2019-03-09 22:34:18,686 ERROR utils.utils Could not make soup: HTTP Error 403: Forbidden, ()
+2019-03-09 22:34:18,688 ERROR fetcher could not make soup for story http://www.20min.ch/motor/autosalon/story/29712867
+2019-03-09 22:35:01,315 ERROR utils.utils Could not make soup: HTTP Error 403: Forbidden, ()
+2019-03-09 22:35:01,321 ERROR fetcher could not make soup for story http://www.20min.ch/motor/autosalon/story/31018949
+2019-03-09 22:37:50,624 INFO werkzeug 127.0.0.1 - - [09/Mar/2019 22:37:50] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2019-03-09 22:38:15,545 INFO db.mongo_db Bulk operation success: <pymongo.results.InsertManyResult object at 0x15d69ec60>
+2019-03-09 22:38:50,327 INFO werkzeug 127.0.0.1 - - [09/Mar/2019 22:38:50] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2019-03-09 22:39:42,557 INFO werkzeug 127.0.0.1 - - [09/Mar/2019 22:39:42] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2019-03-09 22:39:44,459 INFO werkzeug 127.0.0.1 - - [09/Mar/2019 22:39:44] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2019-03-09 22:40:40,557 INFO werkzeug 127.0.0.1 - - [09/Mar/2019 22:40:40] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2019-03-09 22:40:42,725 INFO werkzeug 127.0.0.1 - - [09/Mar/2019 22:40:42] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2019-03-09 22:41:08,330 INFO werkzeug 127.0.0.1 - - [09/Mar/2019 22:41:08] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2019-03-09 22:42:42,849 INFO werkzeug 127.0.0.1 - - [09/Mar/2019 22:42:42] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2019-03-09 22:42:44,186 INFO werkzeug 127.0.0.1 - - [09/Mar/2019 22:42:44] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2019-03-09 22:42:44,539 INFO werkzeug 127.0.0.1 - - [09/Mar/2019 22:42:44] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2019-03-09 22:42:48,320 INFO werkzeug 127.0.0.1 - - [09/Mar/2019 22:42:48] "GET /show_journal/twenty_minutes HTTP/1.1" 200 -
+2019-03-09 22:54:34,254 INFO werkzeug 127.0.0.1 - - [09/Mar/2019 22:54:34] "GET / HTTP/1.1" 200 -
+2019-03-09 22:54:38,155 INFO werkzeug 127.0.0.1 - - [09/Mar/2019 22:54:38] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2019-03-09 22:54:55,784 INFO werkzeug 127.0.0.1 - - [09/Mar/2019 22:54:55] "GET /term_analysis/?term=Trump HTTP/1.1" 500 -
+2019-03-09 22:55:53,015 INFO werkzeug 127.0.0.1 - - [09/Mar/2019 22:55:53] "GET / HTTP/1.1" 200 -
+2019-03-09 22:55:57,180 INFO fetcher Set up fetcher for collection watson
+2019-03-09 22:55:57,180 INFO fetcher fetching stories of journal watson in thread Thread-2
+2019-03-09 22:55:57,186 INFO werkzeug 127.0.0.1 - - [09/Mar/2019 22:55:57] "GET /fetch/watson HTTP/1.1" 200 -
+2019-03-09 22:56:01,015 INFO werkzeug 127.0.0.1 - - [09/Mar/2019 22:56:01] "GET /task_info/watson HTTP/1.1" 200 -
+2019-03-09 22:56:02,969 ERROR utils.utils Could not make soup: HTTP Error 404: Not Found, ()
+2019-03-09 22:56:02,973 ERROR crawlers.crawler could not make a soup for /news/wirtschaft/
+2019-03-09 22:56:03,159 ERROR utils.utils Could not make soup: HTTP Error 404: Not Found, ()
+2019-03-09 22:56:03,162 ERROR crawlers.crawler could not make a soup for /news/wirtschaft/page2/
+2019-03-09 22:56:03,380 ERROR utils.utils Could not make soup: HTTP Error 404: Not Found, ()
+2019-03-09 22:56:03,383 ERROR crawlers.crawler could not make a soup for /news/wirtschaft/page3/
+2019-03-09 22:56:03,597 ERROR utils.utils Could not make soup: HTTP Error 404: Not Found, ()
+2019-03-09 22:56:03,601 ERROR crawlers.crawler could not make a soup for /news/wirtschaft/page4/
+2019-03-09 22:56:03,601 INFO fetcher Download a total of 27 stories.
+2019-03-09 22:56:12,508 ERROR utils.utils Could not make soup: 'ascii' codec can't encode character '\xf6' in position 6: ordinal not in range(128), ('ascii', 'GET /Börse+und+Co HTTP/1.1', 6, 7, 'ordinal not in range(128)')
+2019-03-09 22:56:12,508 ERROR fetcher could not make soup for story http://www.watson.ch/Börse+und+Co
+2019-03-09 22:56:14,314 ERROR utils.utils Could not make soup: 'ascii' codec can't encode character '\xfc' in position 8: ordinal not in range(128), ('ascii', 'GET /gefühle HTTP/1.1', 8, 9, 'ordinal not in range(128)')
+2019-03-09 22:56:14,314 ERROR fetcher could not make soup for story http://www.watson.ch/gefühle
+2019-03-09 22:56:14,834 INFO werkzeug 127.0.0.1 - - [09/Mar/2019 22:56:14] "GET /task_info/watson HTTP/1.1" 200 -
+2019-03-09 22:56:25,231 INFO werkzeug 127.0.0.1 - - [09/Mar/2019 22:56:25] "GET /task_info/watson HTTP/1.1" 200 -
+2019-03-09 22:56:29,479 INFO werkzeug 127.0.0.1 - - [09/Mar/2019 22:56:29] "GET /task_info/watson HTTP/1.1" 200 -
+2019-03-09 22:56:31,163 INFO werkzeug 127.0.0.1 - - [09/Mar/2019 22:56:31] "GET /task_info/watson HTTP/1.1" 200 -
+2019-03-09 22:56:32,048 INFO werkzeug 127.0.0.1 - - [09/Mar/2019 22:56:32] "GET /task_info/watson HTTP/1.1" 200 -
+2019-03-09 22:56:35,040 INFO werkzeug 127.0.0.1 - - [09/Mar/2019 22:56:35] "GET /task_info/watson HTTP/1.1" 200 -
+2019-03-09 22:56:47,751 INFO werkzeug 127.0.0.1 - - [09/Mar/2019 22:56:47] "GET /task_info/watson HTTP/1.1" 200 -
+2019-03-10 01:04:47,259 INFO werkzeug 127.0.0.1 - - [10/Mar/2019 01:04:47] "GET /task_info/watson HTTP/1.1" 200 -
+2019-03-10 01:04:53,200 INFO werkzeug 127.0.0.1 - - [10/Mar/2019 01:04:53] "GET / HTTP/1.1" 200 -
+2019-03-10 01:05:52,175 INFO werkzeug 127.0.0.1 - - [10/Mar/2019 01:05:52] "GET /show_journal/twenty_minutes HTTP/1.1" 200 -
+2019-03-10 15:14:22,364 INFO werkzeug 127.0.0.1 - - [10/Mar/2019 15:14:22] "GET / HTTP/1.1" 200 -
+2019-03-10 15:14:22,388 INFO werkzeug 127.0.0.1 - - [10/Mar/2019 15:14:22] "GET /static/w3.css HTTP/1.1" 304 -
+2019-03-10 15:14:22,391 INFO werkzeug 127.0.0.1 - - [10/Mar/2019 15:14:22] "GET /static/style.css HTTP/1.1" 200 -
+2019-03-10 15:14:22,394 INFO werkzeug 127.0.0.1 - - [10/Mar/2019 15:14:22] "GET /static/jquery.js HTTP/1.1" 304 -
+2019-03-10 16:06:20,897 INFO werkzeug 127.0.0.1 - - [10/Mar/2019 16:06:20] "GET /fetch/twenty_minutes HTTP/1.1" 500 -
+2019-03-10 16:08:55,620 INFO __main__ Successfully configured logger
+2019-03-10 16:08:55,628 INFO werkzeug  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-03-10 16:09:20,088 INFO werkzeug 127.0.0.1 - - [10/Mar/2019 16:09:20] "GET / HTTP/1.1" 200 -
+2019-03-10 16:09:25,491 INFO fetcher Set up fetcher for collection twenty_minutes
+2019-03-10 16:09:25,491 INFO fetcher fetching stories of journal twenty_minutes in thread Thread-1
+2019-03-10 16:09:25,497 INFO werkzeug 127.0.0.1 - - [10/Mar/2019 16:09:25] "GET /fetch/twenty_minutes HTTP/1.1" 200 -
+2019-03-10 16:09:33,830 INFO werkzeug 127.0.0.1 - - [10/Mar/2019 16:09:33] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2019-03-10 16:09:40,775 INFO fetcher Download a total of 943 stories.
+2019-03-10 16:09:40,779 INFO fetcher fetch articles newer than 2019-03-09 22:09:00
+2019-03-10 16:09:45,416 INFO werkzeug 127.0.0.1 - - [10/Mar/2019 16:09:45] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2019-03-10 16:10:01,602 INFO werkzeug 127.0.0.1 - - [10/Mar/2019 16:10:01] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2019-03-10 16:10:12,175 INFO werkzeug 127.0.0.1 - - [10/Mar/2019 16:10:12] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2019-03-10 16:10:25,618 INFO werkzeug 127.0.0.1 - - [10/Mar/2019 16:10:25] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2019-03-10 16:10:32,840 INFO werkzeug 127.0.0.1 - - [10/Mar/2019 16:10:32] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2019-03-10 16:12:06,856 ERROR utils.utils Could not make soup: <urlopen error [Errno 8] nodename nor servname provided, or not known>, (gaierror(8, 'nodename nor servname provided, or not known'),)
+2019-03-10 16:12:06,860 ERROR fetcher could not make soup for story http://www.20min.chhttp://www.20min.ch/finance/news/story/16467357
+2019-03-10 16:15:49,906 ERROR utils.utils Could not make soup: HTTP Error 403: Forbidden, ()
+2019-03-10 16:15:49,909 ERROR fetcher could not make soup for story http://www.20min.ch/motor/autosalon/story/18369140
+2019-03-10 16:16:17,799 ERROR utils.utils Could not make soup: HTTP Error 403: Forbidden, ()
+2019-03-10 16:16:17,803 ERROR fetcher could not make soup for story http://www.20min.ch/motor/autosalon/story/29712867
+2019-03-10 16:16:22,548 ERROR utils.utils Could not make soup: HTTP Error 403: Forbidden, ()
+2019-03-10 16:16:22,552 ERROR fetcher could not make soup for story http://www.20min.ch/paidpost/stories/story/23205007
+2019-03-10 16:16:26,862 ERROR utils.utils Could not make soup: HTTP Error 403: Forbidden, ()
+2019-03-10 16:16:26,865 ERROR fetcher could not make soup for story http://www.20min.ch/motor/autosalon/story/18369140
+2019-03-10 16:16:38,030 ERROR utils.utils Could not make soup: HTTP Error 403: Forbidden, ()
+2019-03-10 16:16:38,036 ERROR fetcher could not make soup for story http://www.20min.ch/motor/autosalon/story/29712867
+2019-03-10 16:16:45,403 ERROR utils.utils Could not make soup: HTTP Error 403: Forbidden, ()
+2019-03-10 16:16:45,406 ERROR fetcher could not make soup for story http://www.20min.ch/motor/autosalon/story/21895513
+2019-03-10 16:18:20,001 ERROR utils.utils Could not make soup: HTTP Error 403: Forbidden, ()
+2019-03-10 16:18:20,007 ERROR fetcher could not make soup for story http://www.20min.ch/motor/autosalon/story/31018949
+2019-03-10 16:21:20,162 INFO db.mongo_db Bulk operation finished with errors: ('batch op errors occurred',)
+2019-03-10 17:48:57,918 INFO werkzeug 127.0.0.1 - - [10/Mar/2019 17:48:57] "GET /task_info/twenty_minutes HTTP/1.1" 200 -
+2019-03-10 17:49:11,786 INFO werkzeug 127.0.0.1 - - [10/Mar/2019 17:49:11] "GET / HTTP/1.1" 200 -
+2019-03-10 17:49:36,039 INFO werkzeug 127.0.0.1 - - [10/Mar/2019 17:49:36] "GET /most_common/twenty_minutes HTTP/1.1" 200 -
+2019-03-10 17:50:01,968 INFO werkzeug 127.0.0.1 - - [10/Mar/2019 17:50:01] "GET /most_common_by_month/twenty_minutes HTTP/1.1" 200 -
+2019-03-10 17:51:31,554 INFO werkzeug 127.0.0.1 - - [10/Mar/2019 17:51:31] "GET / HTTP/1.1" 200 -

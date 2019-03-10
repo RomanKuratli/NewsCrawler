@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="w3-card-4 w3-card-bg w3-padding w3-margin-top w3-margin-bottom">
+    <h2>Most common terms in collection by month</h2>
+    {% for month_label, month_result in result %}
+        <details>
+            <summary>{{ month_label }}</summary>
+            <table class="w3-table-all">
+                <thead>
+                    <tr class="w3-teal"><td>word</td><td>amount</td><td>sentiWS</td></tr>
+                </thead>
+                <tbody>
+                    {% for word, amount, sentiment in month_result %}
+                        <tr><td>{{ word }}</td><td>{{ amount }}</td><td>{{ sentiment }}</td></tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </details>
+    {% endfor %}
+</div>
+{% endblock %}

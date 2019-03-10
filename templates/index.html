@@ -1,0 +1,101 @@
+{% extends "base.html" %}
+{% block additional_header %}
+<script type=text/javascript src="{{url_for('static', filename='jquery.js') }}"></script>
+<script>
+function getStatInfo(collName) {
+    console.log("getStatInfo: " + collName);
+    $.getJSON("/task_info/" + collName,
+        function(data) {
+        $("span#state_" + collName).text(data.state);
+        $("span#recentAction_" + collName).text(data.recentAction);
+        $("span#fetched_" + collName).text(data.fetched);
+        $("span#total_" + collName).text(data.total);
+        $("span#progress_" + collName).text(data.progress);
+        $("progress#progressBar_" + collName).val(data.progress);
+    });
+}
+</script>
+{% endblock %}
+{% block content %}
+<div class="w3-card-4 w3-card-bg w3-padding w3-margin-top w3-margin-bottom">
+    <h2>Issue term analysis</h2>
+    <form action="{{ url_for("term_analysis")}}" method="get">
+        <p>
+            Term: <br/>
+            <input type="text" name="term"/>
+        </p>
+        <input type="submit" value="analyze term"/>
+    </form>
+</div>
+<div class="w3-card-4 w3-card-bg w3-padding w3-margin-top w3-margin-bottom">
+    <h2>saved stories</h2>
+    <div class="w3-responsive">
+        <table class="w3-table-all w3-centered">
+            <thead>
+                <tr class="w3-teal">
+                    <td>journal name</td>
+                    <td>article count</td>
+                    <td>export JSON-Backup</td>
+                    <td>load JSON-Backup</td>
+                    <td>fetch new articles</td>
+                    <td>most common words</td>
+                    <td>most common by month</td>
+                </tr>
+            </thead>
+            <tbody>
+                {% for coll_name, journal in journals %}
+                <tr>
+                    <td><a href="{{ url_for("show_journal", coll_name=coll_name) }}">{{ journal["Display"] }}</a></td>
+                    <td>{{ journal["article_count"] }}</td>
+                    <td>
+                        <a class="w3-btn w3-round-xlarge w3-theme"
+                           href="{{ url_for("json_backup", coll_name=coll_name) }}">
+                        export JSON-Backup
+                        </a>
+                    </td>
+                    <td>
+                        <a class="w3-btn w3-round-xlarge w3-theme"
+                           href="{{ url_for("load_json_form", coll_name=coll_name) }}">
+                        load JSON-Backup
+                        </a>
+                    </td>
+                    <td>
+                        <a  id="fetchArticles_{{ coll_name }}"
+                            class="w3-btn w3-round-xlarge w3-theme"
+                            href="{{ url_for('fetch', coll_name=coll_name) }}" >
+                            fetch new articles
+                        </a>
+                    </td>
+                    <td>
+                        <a class="w3-btn w3-round-xlarge w3-theme"
+                           href="{{ url_for('most_common', coll_name=coll_name) }}" >
+                            most common values
+                        </a>
+                    </td>
+                    <td>
+                        <a class="w3-btn w3-round-xlarge w3-theme"
+                           href="{{ url_for('most_common_by_month', coll_name=coll_name) }}" >
+                            most common by month
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="7">
+                        <div id="taskInfo_{{ coll_name }}">
+                            <p>Current state: <span id="state_{{ coll_name }}"></span><br/>
+                            Recent action: <span id="recentAction_{{ coll_name }}"></span><br/>
+                            Fetched stories: <span id="fetched_{{ coll_name }}"></span>/<span id="total_{{ collname }}"></span> <br/>
+                            Progress: <progress id="progressBar_{{ coll_name }}" value="0" max="100"></progress> <span id="progress_{{ coll_name }}"></span>%</p>
+                            <p><button id="refresh_{{ coll_name }}"
+                                       class="w3-btn w3-round-xlarge w3-theme"
+                                       onclick="getStatInfo('{{ coll_name }}')"
+                            >Refresh</button></p>
+                        </div>
+                    </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

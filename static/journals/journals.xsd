@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Journals">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Journal">
+                    <xs:complexType>
+                        <xs:attribute name="coll" type="xs:string"/>
+                        <xs:sequence>
+                            <xs:element name="Display" type="xs:string"/>
+                            <xs:element name="BaseLink" type="xs:string"/>
+                            <xs:element name="Crawler" type="xs:string"/>
+                            <xs:element name="Indexer" type="xs:string"/>
+                            <xs:element name="Sections">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Section" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

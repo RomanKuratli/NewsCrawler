@@ -1,0 +1,51 @@
+{% macro flash_message(message, cls) -%}
+    <div id="flashDiv" class="w3-panel w3-margin-top w3-margin-bottom w3-padding w3-card-4 w3-display-container {{ cls }}">
+        <span onclick="this.parentElement.style.display='none'" class="w3-button w3-display-topright {{ cls }}">X</span>
+        <p>{{ message }}</p>
+    </div>
+{%- endmacro %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css"/> -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='w3.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <meta charset="UTF-8">
+    <title>20 min Parser</title>
+    {% block additional_header %}{% endblock %}
+</head>
+<body>
+    <div class="w3-main">
+        <div class="w3-card-4 w3-title-bg w3-padding">
+            <h1 class="w3-title-font">Romans 20-min-Parser</h1>
+            <a href="{{ url_for("index") }}"><i class="fa fa-home w3-xxlarge w3-title-font"></i></a>
+        </div>
+        <div id="logDiv">
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    {% for category, message in messages %}
+                        {% if category == "error" %}
+                            {{ flash_message(message, "w3-red") }}
+                        {% elif category == "success" %}
+                            {{ flash_message(message, "w3-green") }}
+                        {% else %}
+                            {{ flash_message(message, "w3-blue") }}
+                        {% endif %}
+                    {% endfor %}
+              {% endif %}
+            {% endwith %}
+        </div>
+        {% block content %}{% endblock %}
+        <div class="w3-card-4 w3-card-bg w3-padding w3-margin-top w3-margin-bottom">
+            <h2>Disclaimer</h2>
+            <p>
+                Author: Roman Kuratli, L&uuml;rlibadstrasse 18, 7000 Chur<br/>
+                Dozent: Fabian Odoni, <a href="http://www.htw-chur.ch">HTW-Chur </a>Pulverm&uuml;hlestrasse 57, 7004 Chur<br/>
+                <a href="http://asv.informatik.uni-leipzig.de/download/sentiws.html">SentiWS</a>: Universit&auml;t Leipzig
+            </p>
+        </div>
+    </div>
+</body>
+</html>

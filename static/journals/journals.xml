@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Journals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="journals.xsd">
+    <Journal coll="twenty_minutes">
+        <Display>20 Minuten</Display>
+        <BaseLink>http://www.20min.ch</BaseLink>
+        <Crawler>twenty_minute_crawler.crawl</Crawler>
+        <Indexer>twenty_minute_indexer.index</Indexer>
+        <Sections>
+            <Section>/community/leser_reporter/</Section>
+            <Section>/people/schweiz/</Section>
+            <Section>/schweiz/basel/</Section>
+            <Section>/community/</Section>
+            <Section>/ausland/</Section>
+            <Section>/community/viral/</Section>
+            <Section>/schweiz/zentralschweiz/</Section>
+            <Section>/schweiz/bern/</Section>
+            <Section>/people/</Section>
+            <Section>/schweiz/ostschweiz/</Section>
+            <Section>/finance/</Section>
+            <Section>/schweiz/</Section>
+            <Section>/schweiz/zuerich/</Section>
+            <Section>/panorama/</Section>
+            <Section>/digital/news/</Section>
+        </Sections>
+    </Journal>
+    <Journal coll="blick">
+        <Display>Blick</Display>
+        <BaseLink>http://www.blick.ch</BaseLink>
+        <Crawler>blick_crawler.crawl</Crawler>
+        <Indexer>blick_indexer.index</Indexer>
+        <Sections>
+            <Section>/news/schweiz/</Section>
+            <Section>/news/schweiz/page2/</Section>
+            <Section>/news/schweiz/page3/</Section>
+            <Section>/news/schweiz/page4/</Section>
+            <Section>/news/ausland/</Section>
+            <Section>/news/ausland/page2/</Section>
+            <Section>/news/ausland/page3/</Section>
+            <Section>/news/ausland/page4/</Section>
+            <Section>/news/politik/</Section>
+            <Section>/news/politik/page2/</Section>
+            <Section>/news/politik/page3/</Section>
+            <Section>/news/politik/page4/</Section>
+            <Section>/news/wirtschaft/</Section>
+            <Section>/news/wirtschaft/page2/</Section>
+            <Section>/news/wirtschaft/page3/</Section>
+            <Section>/news/wirtschaft/page4/</Section>
+        </Sections>
+    </Journal>
+    <Journal coll="watson">
+        <Display>Watson</Display>
+        <BaseLink>http://www.watson.ch</BaseLink>
+        <Crawler>watson_crawler.crawl</Crawler>
+        <Indexer>watson_indexer.index</Indexer>
+        <Sections>
+            <Section>/Schweiz/</Section>
+            <Section>/regionen/</Section>
+            <Section>/International/</Section>
+            <Section>/deutschland/</Section>
+            <Section>/usa/</Section>
+            <Section>/eu/</Section>
+            <Section>/russland/</Section>
+            <Section>/china/</Section>
+            <Section>/Wirtschaft/</Section>
+            <Section>/Leben/</Section>
+            <Section>/Wissen/</Section>
+            <Section>/gesundheit/</Section>
+            <Section>/news/wirtschaft/</Section>
+            <Section>/news/wirtschaft/page2/</Section>
+            <Section>/news/wirtschaft/page3/</Section>
+            <Section>/news/wirtschaft/page4/</Section>
+        </Sections>
+    </Journal>
+</Journals>

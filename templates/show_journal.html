@@ -1,0 +1,60 @@
+{% extends "base_charts.html" %}
+{% macro chart_block(chart_markup) -%}
+    <div class="w3-padding w3-half w3-card-bg w3-container">
+        <div class="w3-container w3-card-2 w3-card-bg2 w3-padding w3-margin">{{ chart_markup }}</div>
+    </div>
+{%- endmacro %}
+{% block content %}
+<div class="w3-card-4 w3-card-bg w3-padding w3-margin-top w3-margin-bottom">
+    <h2>Articles in {{ journal_name }}</h2>
+    <div id="title_row" class="w3-row">
+        <div class="w3-padding w3-margin-top w3-margin-bottom w3-half">
+            <h3>amount</h3>
+        </div>
+        <div class="w3-padding w3-margin-top w3-margin-bottom w3-half">
+            <h3>sentiment</h3>
+        </div>
+    </div>
+    <div id="month_row" class="w3-row">
+        {{ chart_block(month_chart) }}
+        {{ chart_block(month_sent_chart) }}
+    </div>
+    <div id="section_row" class="w3-row">
+        {{ chart_block(section_chart) }}
+        {{ chart_block(section_sent_chart) }}
+    </div>
+</div>
+<div class="w3-card-4 w3-card-bg w3-padding w3-margin-top w3-margin-bottom">
+    <h2>Stories in collection {{ journal_name }}</h2>
+    <table class="w3-table-all">
+        <thead>
+            <tr class="w3-teal">
+                <td>story</td>
+                <td>published on</td>
+                <td>sentiWS title</td>
+                <td>sentiWS subtitle</td>
+                <td>sentiWS text</td>
+            </tr>
+        </thead>
+        <tbody>
+        {% for story in stories %}
+            <tr>
+                <td>
+                    <details>
+                        <summary><strong><a href="{{ story["link"] }}">{{ story["title"] }}</a></strong></summary>
+                        <details>
+                            <summary><i>{{ story["subtitle"] }}</i></summary>
+                            <p>{{ story["text"] }}</p>
+                        </details>
+                    </details>
+                </td>
+                <td>{{ story["published"] }}</td>
+                <td>{{ story["title_sent"] }}</td>
+                <td>{{ story["subtitle_sent"] }}</td>
+                <td><strong>{{ story["text_sent"] }}</strong></td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}
